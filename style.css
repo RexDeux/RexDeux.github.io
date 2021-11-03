@@ -5,7 +5,7 @@ body {
     font-family: 'Zen Antique', serif;
     font: weight 300px;
     color: black;
-    font-size: 16px;
+    font-size: 20px;
     line-height: center;
     text-align: center;
     background-size: cover;
@@ -36,7 +36,7 @@ h3 {
 p {
     padding: 40px;
     font-family: 'Zen Antique', serif;
-    font-size: 1em;
+    font-size: 1.5em;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
     margin-inline-start: 0px;
@@ -52,8 +52,14 @@ a {
 .btn-gray {
     background: darkcyan;
     color: white;
-    padding: 15px 20px;
-    border-radius: 4px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.2em;
+    padding: 5px 15px;
+    border-radius: 8px;
+    border: 2px soliD;
+    font-weight: 600;
+    margin-top: 10px
+;
 }
 .container {
     width: 700px;
