@@ -3,7 +3,7 @@ style.css
 body { 
     background-color: gray;
     font-family: 'Zen Antique', serif;
-    font: weight 300px;
+    font: weight 200px;
     color: black;
     font-size: 20px;
     line-height: center;
@@ -20,7 +20,7 @@ h1 {
 h2 {
     color: black
     font-family: 'Zen Antique', serif;
-    font-size: 1.5em;
+    font-size: 2em;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
     margin-inline-start: 0px;
@@ -34,7 +34,7 @@ h3 {
     font-family: 'Zen Antique', serif;
 }
 p {
-    padding: 40px;
+    padding: 30px;
     font-family: 'Zen Antique', serif;
     font-size: 1.5em;
     margin-block-start: 0.83em;
@@ -43,27 +43,30 @@ p {
     margin-inline-end: 0px;
   }
 a {
-    font-family: 'Zen Antique', serif;
-    text-decoration: none;
-    color:gray;
-    font-weight: 600;
-    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
 }
 .btn-gray {
     background: darkcyan;
     color: white;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Zen Antique', serif;
     font-size: 1.2em;
-    padding: 5px 15px;
+    padding: 5px 10px;
     border-radius: 8px;
     border: 2px soliD;
     font-weight: 600;
-    margin-top: 10px
+    
 ;
 }
 .container {
-    width: 700px;
-    margin: 40px auto;
+    width: 600px;
+    margin: 40px auto ;
+    border-radius: 20%;
+    border-color: darkgoldenrod;
 }
 .card-white {
     background-color: white;
@@ -72,6 +75,7 @@ a {
     border-radius: 4px;
     margin: 20px 0px;
     text-align: center;
+    border: 2px solid gray;
 }
 .img-circle {
     border-radius: 50%;
@@ -82,10 +86,10 @@ a {
 }
 .list-inline {
     list-style: none;
-    padding-left: 0px;
+    padding-left: 10px;
 }
 .list-inline i{
-    font-size: 50px
+    font-size: 100px
     color: rgb(230,230,230);
 }
 ul {
@@ -97,10 +101,19 @@ ul {
     margin-inline-end: 0px;
     padding-inline-start: 40p
 }
+.fa, .fab, .fal, .far, .fas {
+        padding: 20px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+      }
+}
 @media (max-width: 960px) {
     /* For a screen < 960px, this CSS will be read */
     .container {
-      width: 700px;
+      width: 600px;
     }
   }
   @media (max-width: 720px) {
