@@ -70,7 +70,7 @@ a {
 }
 .card-white {
     background-color: white;
-    padding: 40px;
+    padding: 0px;
     box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
     border-radius: 4px;
     margin: 20px 0px;
@@ -103,7 +103,7 @@ ul {
 }
 .fa, .fab, .fal, .far, .fas {
         padding: 20px;
-        font-size: 30px;
+        font-size: 70px;
         width: 30px;
         text-align: center;
         text-decoration: none;
